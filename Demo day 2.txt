@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Peta Website 2
+</head>
+
+<body>
+<h1>Peta Life Style</h1>
+
+<u1>
+	<li>Peta doesnt know what this is</u1>
+
+</body>
+
+
+</html>
