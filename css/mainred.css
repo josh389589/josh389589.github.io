@@ -23,15 +23,52 @@ img{
     border-radius: 5px;
 }
 
+
 #mainContent {
-	margin-left: 75px;
+	margin-left: 140px;
 	margin-right: 75px;
-{
+	
+}
 	
 
-.centerMe{
+.centerMe {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	
+
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+	width: 130px;
+	position: fixed;
+	
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding-left: 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-width: 1px;
+	border-style: solid;
+	
+}
+
+nav ul li a:hover {
+	background-color: #555;
+	color: #fff;
+	
+
+}
+
+.active {
+	background-color: #4CAF50;
+	color: #fff;
 }
