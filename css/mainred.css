@@ -17,12 +17,17 @@ h1 {
 	background-color: #F0F0F0;
 }
 
+img{
+    border: 5px solid #000000;
+    padding: 20p;
+    border-radius: 5px;
+}
 
 #mainContent {
 	margin-left: 75px;
 	margin-right: 75px;
+{
 	
-}
 
 .centerMe{
 	display: block;
