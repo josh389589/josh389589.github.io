@@ -19,7 +19,7 @@ h1 {
 
 img{
     border: 5px solid #000000;
-    padding: 20px;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -74,16 +74,45 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 600px)  {
-	nav {
-		display: none;
+	
+	
+	nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	background-color: #f1f1f1;
+	width: 100%;
+	position: fixed;
+	
+	}
+	
+	nav ul li{
+		float: left;
+		border-right: 1px solid black;
 		
 	}
-	
-	#mainContent {
-	margin-left: 2%;
-	margin-right: 2%;
-	
 
+	nav ul li a {
+		display: block;
+		text-decoration: none;
+		color: #000;
+		padding-left: 16px;
+		padding-right: 16px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		font-size: 0.75em;
+		
 	}
-}
+		
+		#mainContent {
+		margin-left: 2%;
+		margin-right: 2%;
+		padding-left: 0;
+		padding-top: 10px;
+		
+
+		}
+	}
 
