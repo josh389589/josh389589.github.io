@@ -46,7 +46,7 @@ img{
 }
 
 .zoomed:hover {
-	width: 40%;
+	width: 30%;
 	height: auto;
 	transition: 2s;
 	
