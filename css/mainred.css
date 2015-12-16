@@ -39,6 +39,21 @@ img{
 
 }
 
+.zoomed {
+	width: 10%;
+	height: auto;
+
+}
+
+.zoomed:hover {
+	width: 40%;
+	height: auto;
+	transition: 2s;
+	
+	
+	
+}
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -58,6 +73,8 @@ nav ul li a {
 	padding-bottom: 8px;
 	border-width: 1px;
 	border-style: solid;
+	transition: color 1s;
+	transition: background-color 1s;
 	
 }
 
